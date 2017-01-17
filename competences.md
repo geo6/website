@@ -21,7 +21,6 @@ GEO-6 utilise au quotidien différents logiciels et bases de données, open-sour
   - [MapServer OSGEO](http://mapserver.org/)
   - [PostgreSQL](https://www.postgresql.org/), [MariaDB](https://mariadb.org/), [MySQL](https://www.mysql.com/)
   - [Apache HTTP Server Project](https://httpd.apache.org/), [PHP](https://secure.php.net/)
-  - [MapInfo Pro](http://mapinfo.com/)
   - [OpenLayers](https://openlayers.org/), [Leaflet](http://leafletjs.com/)
   - [Outils GDAL (Geospatial Data Abstraction Library)](http://gdal.org/)
 - Bases de données:
