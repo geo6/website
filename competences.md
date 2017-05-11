@@ -36,4 +36,4 @@ Vous souhaitez travailler indépendamment des logiciels commerciaux ou migrer d'
 
 GEO-6 propose également des formations concernant le développement de ses applications, leur mise en œuvre et leur utilisation au sein de votre organisation.
 
-Vous souhaitez un devis ou plus d'informations? [N'hésitez pas à nous contacter.]({{site.url}}/contact/)
+Vous souhaitez un devis ou plus d'informations? [N'hésitez pas à nous contacter.]({{site.url}}/contact.html)
