@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Compétences
+lang: fr
+order: 1
 ---
 **_Quelle que soit votre idée, GEO-6 peut vous aider !_**
 
@@ -36,4 +38,4 @@ Vous souhaitez travailler indépendamment des logiciels commerciaux ou migrer d'
 
 GEO-6 propose également des formations concernant le développement de ses applications, leur mise en œuvre et leur utilisation au sein de votre organisation.
 
-Vous souhaitez un devis ou plus d'informations? [N'hésitez pas à nous contacter.]({{site.url}}/contact.html)
+Vous souhaitez un devis ou plus d'informations? [N'hésitez pas à nous contacter.]({{site.url}}/contact.fr.html)

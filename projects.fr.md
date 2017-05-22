@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Projets
+lang: fr
+order: 2
 ---
 **Pourquoi créer ou migrer vers une base de données géographiques, dédiée et légère ?**
 

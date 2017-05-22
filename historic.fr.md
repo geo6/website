@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Historique
+lang: fr
+order: 3
 ---
 **_« Simplicity is the ultimate sophistication »_** - Leonardo da Vinci
 
@@ -10,7 +12,7 @@ Initialement dénommée Digicom NT, la société GEO-6 voit le jour en 1998 en t
 
 GEO-6 fournit ainsi du matériel, logiciels et données commerciales et assure le rôle d'intégrateur. En effet, à l'époque, les systèmes sont propriétaires et nécessitent des ressources importantes tant en termes de coûts de licences qu'en terme d'assistance technique pour assurer un fonctionnement continu.
 
-Entre 2005 et 2008, GEO-6 élargit son activité en mettant en œuvre une importante campagne de levée d'infrastructures d'éclairage public. La société développe ainsi son expertise en créant des solutions complètes de saisie et traitement de données sur le terrain en temps réel pour de grandes organisations, en assistant celles-ci dans la gestion de leurs infrastructures et la mise en œuvre de leurs bases de données
+Entre 2005 et 2008, GEO-6 élargit son activité en mettant en œuvre une importante campagne de levée d'infrastructures d'éclairage public. La société développe ainsi son expertise en créant des solutions complètes de saisie et traitement de données sur le terrain en temps réel pour de grandes organisations, en assistant celles-ci dans la gestion de leurs infrastructures et la mise en œuvre de leurs bases de données.
 
 ## Phase de développement
 
