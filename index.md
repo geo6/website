@@ -16,4 +16,4 @@ Through its multiple creative projects, GEO-6 touches on different sectors of a 
 
 Because, in an increasingly complex environment, GEO-6 is committed to provide companies with lightweight, dedicated, fast web application and at a lower cost. A pragmatic and pro-active analysis always giving the priority to organization with which it collaborates.
 
-Want to know more about the services GEO-6 offers and the tools it uses? [Visit our "Skills" page]({{site.url}}/skills.html).
+Want to know more about the services GEO-6 offers and the tools it uses? [Visit our "Skills" page]({% link skills.md %}).
