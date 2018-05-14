@@ -18,7 +18,7 @@
         </a>
         <button class="navbar-toggler hidden-md-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbar-toggleable" aria-controls="navbar-toggleable" aria-expanded="false" aria-label="Toggle navigation"></button>
 
-        {% assign pages=site.pages | where:"lang",page.lang | sort:"order" %}
+        {% assign pages=site.pages | where_exp:"item","item.order > -1" | where:"lang",page.lang | sort:"order" %}
         {% assign path = page.path | remove_first:"/" | split:"." %}
 
         <ul class="nav navbar-nav hidden-sm-down">
