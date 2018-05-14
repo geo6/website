@@ -38,4 +38,4 @@ Do you want to work independently from commercial software or migrate from one g
 
 GEO-6 also provides training in development of your own application, their implementation and their use within your organization.
 
-You want a quote or more information? [Do not hesitate to contact us]({% link contact.md %}).
+You want a quote or more information? [Do not hesitate to contact us]({% link contact.html %}).
