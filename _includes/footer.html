@@ -1,7 +1,19 @@
     </div>
     <footer class="footer">
       <div class="container">
-        <span class="text-muted">&copy; {{site.time | date: '%Y' }} GEO-6 - Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a></span>
+        {% if page.lang == "fr" %}
+        <span class="text-muted">
+          &copy; {{site.time | date: '%Y' }} GEO-6 -
+          <a href="{% link tos.fr.md %}">Conditions d'utilisation</a> -
+          Propulsé by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
+        </span>
+        {% else %}
+        <span class="text-muted">
+          &copy; {{site.time | date: '%Y' }} GEO-6 -
+          <a href="{% link tos.md %}">Terms of use</a> -
+          Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
+        </span>
+        {% endif %}
       </div>
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
