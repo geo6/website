@@ -8,7 +8,7 @@ order: -1
 
 ## Welcome to our Services!
 
-Thanks for using our services (“Services”). The Services are provided by GEO-6 SPRL (“GEO-6” ereafter), located at Avenue Jean de Bologne, 35, 1020 Brussels, Belgium.
+Thanks for using our services (“Services”). The Services are provided by SPRL GEO-6 BVBA (“GEO-6” ereafter), located at Avenue Jean de Bologne, 35, 1020 Brussels, Belgium.
 
 By using our Services, you are agreeing to these terms. Please read them carefully.
 
