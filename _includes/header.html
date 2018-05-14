@@ -5,62 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>{{site.title}} - {{page.title}}</title>
-    <link rel="icon" type="image/png" href="/images/favicon.png" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/png" href="{% link images/favicon.png %}" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% link css/style.css %}">
   </head>
   <body>
-    <nav class="navbar navbar-fixed-top navbar-light bg-faded">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="/">
-          <img src="/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <a class="navbar-brand" href="{% link index.md %}">
+          <img src="{% link images/logo.png %}" width="30" height="30" class="d-inline-block align-top" alt="">
           {{site.title}}
         </a>
-        <button class="navbar-toggler hidden-md-up float-xs-right" type="button" data-toggle="collapse" data-target="#navbar-toggleable" aria-controls="navbar-toggleable" aria-expanded="false" aria-label="Toggle navigation"></button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        {% assign pages=site.pages | where_exp:"item","item.order > -1" | where:"lang",page.lang | sort:"order" %}
-        {% assign path = page.path | remove_first:"/" | split:"." %}
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            {% assign pages=site.pages | where_exp:"item","item.order > -1" | where:"lang",page.lang | sort:"order" %}
 
-        <ul class="nav navbar-nav hidden-sm-down">
-          {% for p in pages %}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ p.url }}">{{ p.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-        <ul class="nav navbar-nav float-md-right hidden-sm-down">
-          {% if page.lang != "fr" %}
-          <li>
-            <a class="nav-link" href="{{ path[0] | append:".fr.html" | relative_url }}">Français</a>
-          </li>
-          {% endif %}
-          {% if page.lang != "en" %}
-          <li>
-            <a class="nav-link" href="{{ path[0] | append:".html" | relative_url }}">English</a>
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-      <div class="collapse navbar-toggleable-sm hidden-md-up" id="navbar-toggleable">
-        <ul class="nav navbar-nav">
-          {% for p in pages %}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ p.url }}">{{ p.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-        <ul class="nav navbar-nav">
-          {% if page.lang != "fr" %}
-          <li>
-            <a class="nav-link" href="{{ path[0] | append:".fr.html" | relative_url }}">Français</a>
-          </li>
-          {% endif %}
-          {% if page.lang != "en" %}
-          <li>
-            <a class="nav-link" href="{{ path[0] | append:".html" | relative_url }}">English</a>
-          </li>
-          {% endif %}
-        </ul>
+            {% for p in pages %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ p.url }}">{{ p.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+          <ul class="nav navbar-nav">
+            {% assign path = page.path | remove_first:"/" | split:"." %}
+
+            {% if page.lang != "fr" %}
+            <li>
+              <a class="nav-link" href="{{ path[0] | append:".fr.html" | relative_url }}">Français</a>
+            </li>
+            {% endif %}
+            {% if page.lang != "en" %}
+            <li>
+              <a class="nav-link" href="{{ path[0] | append:".html" | relative_url }}">English</a>
+            </li>
+            {% endif %}
+          </ul>
+        </div>
       </div>
     </nav>
-    <div class="container" id="content">
+    <div class="container pb-3" id="content">

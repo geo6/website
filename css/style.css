@@ -18,7 +18,3 @@ body {
   padding-right: 15px;
   padding-left: 15px;
 }
-
-body > .container {
-  padding: 70px 15px 0;
-}
