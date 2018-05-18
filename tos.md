@@ -4,7 +4,7 @@ title: Terms of use
 lang: en
 order: -1
 ---
-*Last modified: May 25, 2018*
+*Last modified: May 15, 2018*
 
 ## Welcome to our Services!
 

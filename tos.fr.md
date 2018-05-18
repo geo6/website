@@ -4,11 +4,11 @@ title: Conditions d'utilisation
 lang: fr
 order: -1
 ---
-*Date de la dernière modification : 25.05.2018*
+*Date de la dernière modification : 15.05.2018*
 
 ## Bienvenue sur nos services !
 
-Merci d’avoir choisi nos services (les « Services »). Les Services sont fournis par GEO-6 SPRL  (ci-après « GEO-6 »), dont le siège social est situé Avenue Jean de Bologne, 35, 1020 Bruxelles, Belgique.
+Merci d’avoir choisi nos services (les « Services »). Les Services sont fournis par GEO-6 SPRL (ci-après « GEO-6 »), dont le siège social est situé Avenue Jean de Bologne, 35, 1020 Bruxelles, Belgique.
 
 L’utilisation de nos Services implique votre acceptation des présentes Conditions d’Utilisation. Nous vous invitons à les lire attentivement.
 
