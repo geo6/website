@@ -6,12 +6,12 @@ $(document).ready(function () {
       maxZoom: 18
   }).addTo(map);
 
-  var marker1 = L.circleMarker([50.897945, 4.363015], {});
-  var marker2 = L.circleMarker([50.896349, 4.360590], {});
+  var marker1 = L.circleMarker([50.897945, 4.363015], {radius: 5});
+  var marker2 = L.circleMarker([50.896349, 4.360590], {radius: 3, opacity: 0.5});
   var markers = L.featureGroup([
     marker1,
     marker2
   ]).addTo(map);
 
-  map.fitBounds(markers.getBounds());
+  map.setView([50.89376, 4.36383], 13);
 });
