@@ -19,7 +19,7 @@ Geo 6 collects personal data of its employees, partner’s, suppliers and custom
 
 #### Data collection and processes based on **business contracts** with clients/partners/suppliers
 
-Geo 6 collects and process mainly geographical data for business clients/partners/suppliers based on contracts. From May 25, 2018 on, those contracts will specify clearly that the data exchanged with clients/partners/suppliers **may not contain personal data** unless the contract has an agreed GDPR addendum meeting the requirements of GDPR regulations. Regarding existing long-term contracts, Geo 6 informs the existing clients/ partners/suppliers about the possible impacts of the new regulation on the existing services and provides support to adapt the services according to the new regulations.
+Geo 6 collects and process mainly geographical data for business clients/partners/suppliers based on contracts. Since May 25, 2018, those contracts specify clearly that the data exchanged with clients/partners/suppliers **may not contain personal data** unless the contract has an agreed GDPR addendum meeting the requirements of GDPR regulations. Regarding existing long-term contracts, Geo 6 informs the existing clients/ partners/suppliers about the possible impacts of the new regulation on the existing services and provides support to adapt the services according to the new regulations.
 
 #### Data collection and processes offered in *open source*
 
