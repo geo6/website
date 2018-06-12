@@ -19,7 +19,7 @@ Geo-6 collecte les données personnelles de ses employés, partenaires, fourniss
 
 #### Données personnelles collectées et traitées dans le cadre de **relations contractuelles** avec ses clients/partenaires/fournisseurs
 
-Geo-6 offre des services de collecte et de traitement de données principalement géographiques dans le cadre de relations contractuelles avec ses clients, partenaires et fournisseurs. A partir du 25 mai 2015, les contrats de prestation de services stipulent clairement que les données échangées avec nos clients/partenaires/fournisseurs **ne peuvent contenir de données personnelles** sauf si ces contrats contiennent un addendum garantissant le respect du RGPD.  Pour ce qui concerne les contrats existants, Geo-6 informe ses clients/partenaires/fournisseurs des impacts de la nouvelle réglementation sur les services actuels et offre un support pour adapter les services existants conformément à la nouvelle réglementation.
+Geo-6 offre des services de collecte et de traitement de données principalement géographiques dans le cadre de relations contractuelles avec ses clients, partenaires et fournisseurs. Depuis le 25 mai 2018, les contrats de prestation de services stipulent clairement que les données échangées avec nos clients/partenaires/fournisseurs **ne peuvent contenir de données personnelles** sauf si ces contrats contiennent un addendum garantissant le respect du RGPD.  Pour ce qui concerne les contrats existants, Geo-6 informe ses clients/partenaires/fournisseurs des impacts de la nouvelle réglementation sur les services actuels et offre un support pour adapter les services existants conformément à la nouvelle réglementation.
 
 #### Données et traitements offerts en *open source*
 
@@ -75,7 +75,7 @@ Dans ces conditions, Geo-6 sera dans l’obligation de répondre dans un délai 
 
 ### Concernant les termes de cette déclaration
 
-Nous pouvons les termes de la présente déclaration afin d’en adapter le contenu en fonction des changements intervenant dans la réglementation ou au sein de ses Services.
+Nous pouvons modifier les termes de la présente déclaration afin d’en adapter le contenu en fonction des changements intervenant dans la réglementation ou au sein de nos Services.
 
 La version la plus récente est disponible sur notre site Web.
 
