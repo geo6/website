@@ -29,7 +29,7 @@
 
             {% for p in pages %}
             <li class="nav-item">
-              <a class="nav-link" href="{{ p.url }}">{{ p.title }}</a>
+              <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}</a>
             </li>
             {% endfor %}
           </ul>
