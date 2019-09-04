@@ -1,5 +1,7 @@
 title: GEO-6
 url: https://geo6.be
+baseurl: "/website"
 
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag
