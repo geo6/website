@@ -79,5 +79,3 @@ If these conditions are met, Geo-6 is obligated to answer within 30 days after r
 We may modify the terms of this commitment to reflect changes to the law or changes to our Services.
 
 The most recent version is available on our website.
-
-For more information, visit [www.privacycommission.be](https://www.privacycommission.be/). You can also contact this authority if you do not agree with our point of view.

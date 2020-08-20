@@ -78,5 +78,3 @@ Dans ces conditions, Geo-6 sera dans l’obligation de répondre dans un délai 
 Nous pouvons modifier les termes de la présente déclaration afin d’en adapter le contenu en fonction des changements intervenant dans la réglementation ou au sein de nos Services.
 
 La version la plus récente est disponible sur notre site Web.
-
-Pour de plus amples informations, rendez-vous sur [www.privacycommission.be](https://www.privacycommission.be/). Vous pouvez également vous adresser à cette autorité si vous n’êtes pas d’accord avec notre point de vue.
