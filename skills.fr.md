@@ -20,22 +20,37 @@ order: 1
 GEO-6 utilise au quotidien différents logiciels et bases de données, open-source pour la plupart:
 
 - Logiciels:
-  - [MapServer OSGEO](http://mapserver.org/)
-  - [PostgreSQL](https://www.postgresql.org/), [MariaDB](https://mariadb.org/), [MySQL](https://www.mysql.com/)
-  - [Apache HTTP Server Project](https://httpd.apache.org/), [PHP](https://secure.php.net/)
-  - [OpenLayers](https://openlayers.org/), [Leaflet](http://leafletjs.com/)
-  - [Outils GDAL (Geospatial Data Abstraction Library)](http://gdal.org/)
-- Bases de données:
-  - [OpenStreetMap](https://www.openstreetmap.org/)
-  - Données régionales (UrbIS, CRAB, PICC)
+  - Cartographie
+    - [MapServer](https://mapserver.org/){:target="_blank"} + [MapCache](https://mapserver.org/mapcache/){:target="_blank"}
+    - [MapProxy](https://mapproxy.org/){:target="_blank"}
+    - [OpenLayers](https://openlayers.org/){:target="_blank"}
+    - [Leaflet](https://leafletjs.com/){:target="_blank"}
+    - [GDAL tools (Geospatial Data Abstraction Library)](http://gdal.org/){:target="_blank"}
+    - ...
+  - Base de données
+    - [PostgreSQL](https://www.postgresql.org/){:target="_blank"} + [PostGIS](https://postgis.net/){:target="_blank"}
+    - [MariaDB](https://mariadb.org/){:target="_blank"}
+    - [MySQL](https://www.mysql.com/){:target="_blank"}
+    - ...
+  - Serveur web
+    - [Apache HTTP Server Project](https://httpd.apache.org/){:target="_blank"}
+    - [Node.JS](https://nodejs.org/){:target="_blank"}
+    - ...
+  - Langage de programmation
+    - [PHP](https://www.php.net/){:target="_blank"}
+    - JavaScript
+    - [TypeScript](https://www.typescriptlang.org/){:target="_blank"}
+- Données:
+  - [OpenStreetMap](https://www.openstreetmap.org/){:target="_blank"}
+  - Regional data (UrbIS, CRAB, PICC, ICAR, ...)
+  - Statistal sectors
   - IGN
   - MultiNet (TomTom)
   - Navstreets (Here)
+  - ...
 
 Grâce à ses connaissances fonctionnelles et techniques, GEO-6 développe rapidement ses propres outils en collaboration et en adéquation avec les besoins de votre organisation, par une approche proactive et flexible. Avec un suivi et un service de surveillance et de maintenance continu, elle assure ainsi un partenariat de confiance sur le long terme.
 
 Vous souhaitez travailler indépendamment des logiciels commerciaux ou migrer d'une base de données géographiques vers une autre? À travers ses différents services, GEO-6 promeut l'utilisation du code open-source en créant ses projets et applications web libres d'accès, désireuse d'offrir une solution accessible, dédiée et légère adaptée à chaque entreprise. Et ce, en toute confidentialité!
 
 GEO-6 propose également des formations concernant le développement de ses applications, leur mise en œuvre et leur utilisation au sein de votre organisation.
-
-Vous souhaitez un devis ou plus d'informations? [N'hésitez pas à nous contacter.]({% link contact.fr.html %})
