@@ -5,26 +5,46 @@ lang: fr
 order: -1
 map: true
 ---
+
 <div class="row">
-  <div class="col-md-4 text-center">
-    <img src="{% link images/contact.png %}" alt="GEO-6">
-  </div>
-  <div class="col-md-8">
-    <strong>SPRL GEO-6</strong>
-    <div class="row">
-      <div class="col">
-        <address>
-          Avenue Jean de Bologne 35<br>
-          1020 Bruxelles<br>
-          Belgique
-        </address>
-      </div>
-      <div class="col">
-        <p>office&nbsp;@&nbsp;geo6&nbsp;.&nbsp;be</p>
-        <p><abbr title="Taxe sur la Valeur Ajoutée">TVA:</abbr> BE 0421.608.025</p>
-      </div>
+  <div class="col d-flex flex-column">
+    <div>
+      <strong>SPRL GEO-6 BVBA</strong>
+      <address>Avenue Jean de Bologne 35 - 1020 Bruxelles, Belgique</address>
+      <abbr title="Taxe sur la Valeur Ajoutée">TVA</abbr> BE 0421.608.025
+
+      <hr>
+    </div>
+
+    <div class="flex-grow-1">
+      <div id="map" class="h-100"></div>
     </div>
   </div>
+  <div class="col">
+    <!-- <p>
+      Vous pouvez nous envoyer un e-mail à l'adresse <var>office&nbsp;@&nbsp;geo6&nbsp;.&nbsp;be</var>
+      ou utiliser le formulaire ci-dessous.
+    </p>
+
+    <hr> -->
+
+    <form action="https://formspree.io/f/mleowpqq" method="POST" autocomplete="off">
+      <div class="form-group">
+        <label for="name">Votre nom</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Votre adresse e-mail</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Votre message</label>
+        <textarea class="form-control" id="message" rows="5" name="message" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Envoyer</button>
+    </form>
+  </div>
 </div>
-<hr>
-<div id="map"></div>
