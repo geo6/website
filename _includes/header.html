@@ -1,5 +1,5 @@
 <header>
-  <nav class="navbar navbar-light navbar-expand-md">
+  <nav class="navbar navbar-light navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand" href="{% link index.md %}">
         <img src="{% link images/logo-full.png %}" height="100" class="d-inline-block align-top" alt="">
@@ -13,14 +13,25 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           {% assign pages=site.pages | where_exp:"item","item.order > -1" | where:"lang",page.lang | sort:"order" %}
-
           {% for p in pages %}
           <li class="nav-item">
             <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }}</a>
           </li>
           {% endfor %}
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Produits & Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              {% assign products=site.products | where_exp:"item","item.order > -1" | where:"lang",page.lang | sort:"order" %}
+              {% for p in products %}
+              <a class="dropdown-item" href="{{ p.url | relative_url }}">{{ p.title }}</a>
+              {% endfor %}
+            </div>
+          </li>
         </ul>
-        <div class="ml-lg-5 ml-md-3">
+        <div class="ml-lg-3">
           {% if page.lang == "fr" %}
           <a target="_blank" href="https://sandbox.geo6.be/" class="btn btn-cta">Démo</a>
           <a href="{% link contact.fr.html %}" class="btn btn-cta">Contactez-nous</a>

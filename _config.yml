@@ -5,3 +5,7 @@ baseurl: ""
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+
+collections:
+  products:
+    output: true
