@@ -2,7 +2,7 @@
 title: Inventaire et Gestion d'équipements
 layout: default
 lang: fr
-order: 0
+order: 1
 ---
 
 Depuis plusieurs années, nous proposons une série d'outils permettant à administration environnementale de gérer leurs équipements (bancs, jeux, luminaires, fontaines, poubelles, ...) dans les parcs de la Région bruxelloises.

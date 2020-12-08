@@ -2,7 +2,7 @@
 title: Services WMS/WMTS/WFS et Serveur de tuiles
 layout: default
 lang: fr
-order: 0
+order: 3
 ---
 
 ## Services WMS/WMTS/WFS/...
