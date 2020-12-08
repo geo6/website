@@ -1,9 +1,10 @@
 ---
-layout: default
 title: Compétences
+layout: default
 lang: fr
 order: 1
 ---
+
 **_Quelle que soit votre idée, GEO-6 peut vous aider !_**
 
 ## Services :
@@ -42,8 +43,8 @@ GEO-6 utilise au quotidien différents logiciels et bases de données, open-sour
     - [TypeScript](https://www.typescriptlang.org/){:target="_blank"}
 - Données:
   - [OpenStreetMap](https://www.openstreetmap.org/){:target="_blank"}
-  - Regional data (UrbIS, CRAB, PICC, ICAR, ...)
-  - Statistal sectors
+  - Données régionales (UrbIS, CRAB, PICC, ICAR, ...)
+  - Secteurs statistiques
   - IGN
   - MultiNet (TomTom)
   - Navstreets (Here)
