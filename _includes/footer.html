@@ -4,19 +4,23 @@
       <div class="col">
         <strong>SPRL GEO-6 BVBA</strong>
 
-        <address>
-          Avenue Jean de Bologne 35<br>
-          1020 Bruxelles<br>
+        <address class="mb-2">
+          Avenue Jean de Bologne 35 - 1020 Bruxelles<br>
           Belgique
         </address>
 
-        <div>
+        <div class="mb-2">
           {% if page.lang == "fr" %}
           <abbr title="Taxe sur la Valeur Ajoutée">TVA</abbr>
           {% else %}
           <abbr title="Value-Added Tax">VAT</abbr>
           {% endif %}
           BE 0421.608.025
+        </div>
+
+        <div>
+          <img src="{{ 'assets/images/GitHub-Mark-Light-32px.png' | relative_url }}" style="height: 1rem;">
+          <a target="_blank" href="https://github.com/geo6">GitHub</a>
         </div>
       </div>
       <div class="col">
