@@ -1,5 +1,6 @@
 ---
 title: Services WMS/WMTS/WFS et Serveur de tuiles
+category: products
 layout: default
 lang: fr
 order: 3
@@ -9,9 +10,10 @@ order: 3
 
 Depuis plusieurs années, nous hébergeons divers services WMS (*Web Map Service*), WMTS (*Web Map Tile Service*), WFS (*Web Feature Service*) pour nos clients. Ces standards de l'[*Open Geospatial Consortium (OGC)*](https://www.ogc.org/){: target="_blank"} permettent d'afficher et d'interroger des couches cartographiques.
 
-Nous utilisons principalement les programmes open-source suivants : [*MapServer*](https://mapserver.org/){: target="_blank"}, [*GeoServer*](http://geoserver.org/){: target="_blank"}, [*MapCache*](https://mapserver.org/mapcache/){: target="_blank"}, [*MapProxy*](https://mapproxy.org/){: target="_blank"}.
+Nous utilisons principalement les programmes open-source suivants : [*MapServer*](https://mapserver.org/){: target="_blank"}, [*GeoServer*](http://geoserver.org/){: target="_blank"}, [*MapCache*](https://mapserver.org/mapcache/){: target="_blank"}, [*MapProxy*](https://mapproxy.org/){: target="_blank"}
 
 ## Serveur de tuiles
+
 Nous hébergeons et nous occupons également du serveur de tuiles d'[OpenStreetMap Belgique](https://openstreetmap.be/){: target="_blank"} : <https://tile.geo6.be/>{: target="_blank"}.
 
 Ce serveur de tuiles utilise les même mécaniques que le serveur de tuiles utilisé par *OpenStreetMap* sur <https://openstreetmap.org/>{: target="_blank"}.  

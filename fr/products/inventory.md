@@ -1,4 +1,5 @@
 ---
+category: products
 title: Inventaire et Gestion d'équipements
 layout: default
 lang: fr
@@ -15,7 +16,7 @@ Certaines fonctionnalités sont en effet plus utilisées sur le terrain (prise d
 Ces outils sont suffisamment génériques pour être adaptés à n'importe quel type d'équipement de l'espace public.
 
 <div class="row no-gutters">
-	<div class="col mr-1"><img class="img-fluid" src="{{ 'assets/images/products/inventory-1.png' | relative_url }}" alt="Inventory 1"></div>
-	<div class="col mr-1"><img class="img-fluid" src="{{ 'assets/images/products/inventory-2.png' | relative_url }}" alt="Inventory 2"></div>
-	<div class="col"><img class="img-fluid" src="{{ 'assets/images/products/inventory-3.png' | relative_url }}" alt="Inventory 2"></div>	
+ <div class="col mr-1"><img class="img-fluid" src="{{ 'assets/images/products/inventory-1.png' | relative_url }}" alt="Inventory 1"></div>
+ <div class="col mr-1"><img class="img-fluid" src="{{ 'assets/images/products/inventory-2.png' | relative_url }}" alt="Inventory 2"></div>
+ <div class="col"><img class="img-fluid" src="{{ 'assets/images/products/inventory-3.png' | relative_url }}" alt="Inventory 2"></div> 
 </div>

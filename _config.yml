@@ -6,7 +6,3 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-seo-tag
-
-collections:
-  products:
-    output: true
