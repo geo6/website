@@ -3,6 +3,8 @@ layout: default
 title: Privacy
 lang: en
 order: -1
+redirect_from:
+  - /privacy.html
 ---
 
 ## Geo-6 commitment regarding GDPR regulations

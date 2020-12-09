@@ -3,6 +3,8 @@ title: Compétences
 layout: default
 lang: fr
 order: 1
+redirect_from:
+  - /skills.fr.html
 ---
 
 **_Quelle que soit votre idée, GEO-6 peut vous aider !_**

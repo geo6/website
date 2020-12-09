@@ -3,6 +3,8 @@ layout: default
 title: Terms of use
 lang: en
 order: -1
+redirect_from:
+  - /terms.html
 ---
 *Last modified: May 15, 2018*
 
@@ -78,6 +80,7 @@ In all cases, GEO-6, and its suppliers and distributors, will not be liable for 
 If you are using our Services on behalf of a business, that business accepts these terms. It will hold harmless and indemnify GEO-6 and its affiliates, officers, agents, and employees from any claim, suit or action arising from or related to the use of the Services or violation of these terms, including any liability or expense arising from claims, losses, damages, suits, judgments, litigation costs and attorneys’ fees.
 
 ## About these Terms
+
 We may modify these terms or any additional terms that apply to a Service to, for example, reflect changes to the law or changes to our Services. You should look at the terms regularly. We’ll post notice of modifications to these terms on this page. We’ll post notice of modified additional terms in the applicable Service. Changes will not apply retroactively and will become effective no sooner than fourteen days after they are posted. However, changes addressing new functions for a Service or changes made for legal reasons will be effective immediately. If you do not agree to the modified terms for a Service, you should discontinue your use of that Service.
 
 If there is a conflict between these terms and the additional terms, the additional terms will control for that conflict.

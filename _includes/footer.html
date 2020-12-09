@@ -25,24 +25,25 @@
       </div>
       <div class="col">
         <div>
-          {% assign path = page.path | remove_first:"/" | split:"." %}
+          {% assign path_fr = page.path | split:"/" | last | prepend:"fr/" | replace:".md",".html" %}
+          {% assign path_en = page.path | split:"/" | last | prepend:"en/" | replace:".md",".html" %}
 
           {% if page.lang == "fr" %}
-          <strong>Français</strong> - <a class="font-bold" href="{{ path[0] | append:".html" | relative_url }}">English</a>
+          <strong>Français</strong> - <a class="font-bold" href="{{ path_en | relative_url }}">English</a>
           {% else %}
-          <a class="font-bold" href="{{ path[0] | append:".fr.html" | relative_url }}">Français</a> - <strong>English</strong>
+          <a class="font-bold" href="{{ path_fr | relative_url }}">Français</a> - <strong>English</strong>
           {% endif %}
         </div>
 
         {% if page.lang == "fr" %}
         <ul class="list-unstyled mt-3">
-          <li><a href="{% link terms.fr.md %}">Conditions d'utilisation</a></li>
-          <li><a href="{% link privacy.fr.md %}">Vie privée</a></li>
+          <li><a href="{% link fr/terms.md %}">Conditions d'utilisation</a></li>
+          <li><a href="{% link fr/privacy.md %}">Vie privée</a></li>
         </ul>
         {% else %}
         <ul class="list-unstyled mt-3">
-          <li><a href="{% link terms.md %}">Terms of use</a></li>
-          <li><a href="{% link privacy.md %}">Privacy</a></li>
+          <li><a href="{% link en/terms.md %}">Terms of use</a></li>
+          <li><a href="{% link en/privacy.md %}">Privacy</a></li>
         </ul>
         {% endif %}
 
