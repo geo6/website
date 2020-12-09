@@ -3,6 +3,8 @@ layout: default
 title: Conditions d'utilisation
 lang: fr
 order: -1
+redirect_from:
+  - /terms.fr.html
 ---
 *Date de la dernière modification : 15.05.2018*
 

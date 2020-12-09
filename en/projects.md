@@ -3,6 +3,8 @@ layout: default
 title: Projects
 lang: en
 order: 2
+redirect_from:
+  - /projects.html
 ---
 **Why create or migrate to a dedicated and lightweight geographic database ?**
 

@@ -3,6 +3,8 @@ layout: default
 title: Vie privée
 lang: fr
 order: -1
+redirect_from:
+  - /privacy.fr.html
 ---
 
 ## Engagements de Geo-6 concernant le RGPD

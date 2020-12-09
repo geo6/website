@@ -3,6 +3,8 @@ layout: default
 title: Historic
 lang: en
 order: 3
+redirect_from:
+  - /historic.html
 ---
 **_« Simplicity is the ultimate sophistication »_** - Leonardo da Vinci
 

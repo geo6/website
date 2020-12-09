@@ -3,6 +3,8 @@ layout: default
 title: Projets
 lang: fr
 order: 2
+redirect_from:
+  - /projects.fr.html
 ---
 **Pourquoi créer ou migrer vers une base de données géographiques, dédiée et légère ?**
 

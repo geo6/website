@@ -3,6 +3,8 @@ layout: default
 title: Présentation
 lang: fr
 order: 0
+redirect_from:
+  - /index.fr.html
 ---
 **_GEO-6, solutions simples pour problèmes complexes_**
 
@@ -16,4 +18,4 @@ Par ailleurs, GEO-6 a fait le pari de l'open-source pour construire et diffuser 
 
 Car, dans un environnement toujours plus complexe, GEO-6 a à cœur d'offrir aux entreprises des applications web légères, dédiées, rapides et à moindre coût. Une analyse pragmatique et pro-active en donnant toujours la priorité aux organisations avec lesquelles elle collabore.
 
-Vous souhaitez en savoir plus sur les services qu'offre GEO-6 et les outils qu'elle utilise? [Consultez notre page "Compétences"]({% link skills.fr.md %})
+Vous souhaitez en savoir plus sur les services qu'offre GEO-6 et les outils qu'elle utilise? [Consultez notre page "Compétences"]({% link fr/skills.md %})

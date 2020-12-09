@@ -3,6 +3,8 @@ layout: default
 title: Skills
 lang: en
 order: 1
+redirect_from:
+  - /skills.html
 ---
 **_Whatever your idea is, GEO-6 can help you!_**
 

@@ -3,6 +3,7 @@ url: https://geo6.be
 baseurl: ""
 
 plugins:
+  - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-seo-tag
 
