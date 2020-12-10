@@ -25,13 +25,16 @@
       </div>
       <div class="col">
         <div>
-          {% assign path_fr = page.path | split:"/" | last | prepend:"fr/" | replace:".md",".html" %}
-          {% assign path_en = page.path | split:"/" | last | prepend:"en/" | replace:".md",".html" %}
+          {% assign path = page.path | split:"/" | last | replace:".md",".html" %}
+
+          {% if page.path contains 'products' %}
+            {% assign path = path | prepend:"products/" %}
+          {% endif %}
 
           {% if page.lang == "fr" %}
-          <strong>Français</strong> - <a class="font-bold" href="{{ path_en | relative_url }}">English</a>
+          <strong>Français</strong> - <a class="font-bold" href="{{ path | prepend:"en/" | relative_url }}">English</a>
           {% else %}
-          <a class="font-bold" href="{{ path_fr | relative_url }}">Français</a> - <strong>English</strong>
+          <a class="font-bold" href="{{ path | prepend:"fr/" | relative_url }}">Français</a> - <strong>English</strong>
           {% endif %}
         </div>
 
