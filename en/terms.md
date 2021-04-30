@@ -24,7 +24,7 @@ Don’t misuse our Services. For example, don’t interfere with our Services or
 
 Using our Services does not give you ownership of any intellectual property rights in our Services or the content you access. You may not use content from our Services unless you obtain permission from its owner or are otherwise permitted by law. Don’t remove, obscure, or alter any legal notices displayed in or along with our Services.
 
-Our Services display some content that is not GEO-6’s. This content is the sole responsibility of the entity that makes it available. We may review content to determine whether it is illegal or violates our policies, and we may remove or refuse to display content that we reasonably believe violates our policies or the law. But that does not necessarily mean that we review content, so please don’t assume that we do.
+Our Services display some content that is not GEO-6’s. This content is the sole responsibility of the data provider that makes it available. We may review content to determine whether it is illegal or violates our policies, and we may remove or refuse to display content that we reasonably believe violates our policies or the law. But that does not necessarily mean that we review content, so please don’t assume that we do.
 
 In connection with your use of the Services, we may send you service announcements, administrative messages, and other information.
 
